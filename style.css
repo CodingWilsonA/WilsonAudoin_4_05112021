@@ -915,7 +915,21 @@ h4 {
         padding: 0;
         overflow-x: hidden;
         box-shadow: none;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
+    .site-navigation {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .site-navigation > li {
+        padding-left: 16vw;
+    }
+    
     .navbar-brand img {
         max-height: 40px;
         width: auto;
