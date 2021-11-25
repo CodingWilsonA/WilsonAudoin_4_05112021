@@ -1072,6 +1072,14 @@ h4 {
     .text-center__home--quote > span {
         font-size: 2.2vw!important;
     }
+    a[data-lightbox] {
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio-thumb {
+        margin-top: 30px;
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -1083,14 +1091,6 @@ h4 {
     }
     .text-center__home--quote > span {
         font-size: 2.6vw!important;
-    }
-    a[data-lightbox] {
-        display: flex;
-        justify-content: center;
-    }
-    .portfolio-thumb {
-        margin-top: 30px;
-        width: 90%;
     }
     .col-sm-12 > h2 {
         font-size: 5vw!important;
