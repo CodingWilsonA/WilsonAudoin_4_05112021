@@ -1012,6 +1012,8 @@ h4 {
     }
 }
 
+/*Overload*/
+
 .col-sm-12 > h1 {
     font-size: 2vw;
     color: white!important;
