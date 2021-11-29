@@ -4246,7 +4246,8 @@ input[type=submit].btn-block {
 }
 
 .collapse.in {
-    display: block
+    display: flex;
+    justify-content: center;
 }
 
 tr.collapse.in {
